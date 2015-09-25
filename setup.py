@@ -8,7 +8,7 @@ def _get_readme():
 
 
 setup(name='compat23',
-      version='0.1.1',
+      version='0.2a1',
       packages=['compat23'],
       author='Ian Denhardt',
       author_email='ian@zenhack.net',
