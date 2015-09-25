@@ -1,6 +1,9 @@
 
 # To Be Released
 
+* It's now possible to do e.g. `from compat23.core import bytes` rather than
+  just `from compat23.core import *`.
+
 # v0.1.1
 
 Initial release

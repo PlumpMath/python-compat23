@@ -24,6 +24,14 @@ import sys as _sys
 if _sys.version_info.major == 3:
     basestring = str
     unicode = str
+
+    # We reassign these to make it so that a user can do (e.g.):
+    # from compat23.core import bytes. The same is done below for
+    # Python 2.
+    bytes = bytes
+    range = range
 elif _sys.version_info.major == 2:
+    basestring = basestring
+    unicode = unicode
     bytes = str
     range = xrange
